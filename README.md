@@ -1,6 +1,6 @@
 ## Assignment 01: A Simplified Blackjack Game
-### Added all files to GitHub repo (including video of app)
-### Doesn't fully work
+#### Added all files to GitHub repo (including video of app)
+#### Doesn't fully work
 
 ## Assigned: Thurs, Sep 13, 2018
 ## Due: Design – Thurs, Sep 27, 2018 5pm
