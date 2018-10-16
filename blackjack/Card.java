@@ -1,14 +1,15 @@
 package com.example.marianaarmelin.blackjack;
 
 /**
- * Card class creates object for card containing rank and suit
+ *  Card class represents a real world card containing rank and suit information
  *  @author Mariana Armelin
- *  @version 2.0 (10/05/18)
+ *  @version 2.0 10/05/18  -- Don't need the parenthesis around the 
  *  @since version 0.0
  */
 
 public class Card
 {
+    // Use javadoc comments for your instance variables
     private int rank;
     private int suit;
     String[] suits = {"Clubs", "Diamonds", "Hearts", "Spades"};
@@ -18,6 +19,11 @@ public class Card
      * Constructor method for Card class
      * @param rank of card
      * @param suit of card
+     */
+    /**
+     * Parameterized constructor 
+     * @param rank the rank value of the card
+     * @param suit the suit of the card 
      */
     public Card(int rank, int suit)
     {
@@ -48,6 +54,7 @@ public class Card
      * @return string for value and suit of card
      */
     public String toString() {
+        // in these types of cases, use switch-case construct
         String value;
 
         if(rank == 1)

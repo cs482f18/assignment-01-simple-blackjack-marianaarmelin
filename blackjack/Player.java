@@ -3,7 +3,7 @@ package com.example.marianaarmelin.blackjack;
 import java.util.ArrayList;
 
 /**
- * Player class creates player object
+ *  Represents a Player object in a Card Game
  *  @author Mariana Armelin
  *  @version 1.0 (10/05/18)
  *  @since version 1.0
@@ -22,7 +22,7 @@ public class Player
 
     /**
      * Adds card to player's hand
-     * @param card
+     * @param card the card that is handed to the player
      */
     public void giveCard(Card card)
     {
@@ -56,6 +56,9 @@ public class Player
         this.score += score;
     }
 
+    /**
+     * Write Javadoc comment
+     */
     public ArrayList<Card> getHand()
     {
         return hand;
